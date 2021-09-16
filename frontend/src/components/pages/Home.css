@@ -1,0 +1,64 @@
+.main .search-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  height: 45px;
+  width: 100%;
+  max-width: 80vw;
+}
+
+.main .search-bar.disabled {
+  opacity: 0.5;
+}
+
+.main .search-bar.disabled,
+.main .search-bar.disabled * {
+  cursor: not-allowed;
+  caret-color: transparent;
+}
+
+.main .search-bar.disabled input,
+.main .search-bar.disabled button {
+  pointer-events: none;
+}
+
+.main .search-bar .bar {
+  background-color: #222027;
+  box-shadow: 0px 0px 5px #232127;
+  margin-right: 25px;
+  flex-grow: 1;
+  height: inherit;
+  border-radius: 5px;
+  outline: 0;
+  border: none;
+  padding: 2px 30px;
+  font-size: 1.1em;
+  color: #fff;
+}
+
+.main .search-bar .search-btn {
+  width: 150px;
+  height: inherit;
+  border-radius: 5px;
+}
+
+.main .products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 90vw;
+}
+
+.main .products .product {
+  margin: 15px;
+}
+
+.main .products .alert {
+  font-size: 1.5em;
+  margin-top: 20vh;
+  color: #808080;
+}

@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #201e27;
+  height: 50px;
+}
+
+.nav .page {
+  text-align: center;
+  margin: 0px 1px;
+  height: inherit;
+  border: none;
+  width: 200px;
+  text-decoration: none;
+  background-color: #3a8623ef;
+  font-weight: 300;
+  display: block;
+  color: #fff;
+  padding: 15px;
+}
+
+.nav .page:hover {
+  background-color: #507c43a2;
+}
